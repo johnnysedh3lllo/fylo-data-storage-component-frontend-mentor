@@ -24,9 +24,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-responsive-data-storage-component-built-with-css-flexbox-DmHTyyBS2P
+)
 
-- Live Site URL: [GitHub]()
+- Live Site URL: [GitHub](https://johnnysedh3lllo.github.io/fylo-data-storage-component-frontend-mentor/)
 
 
 ## My process
