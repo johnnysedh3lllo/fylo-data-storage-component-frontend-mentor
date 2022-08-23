@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="flex">
+      <div class="bg-color-primary container flex">
+        <div class="logo">
+          <img src="logo.svg" alt="" />
+        </div>
+        <div class="icon-container flex">
+          <div class="icon"><img src="icon-document.svg" alt="" /></div>
+          <div class="icon"><img src="icon-folder.svg" alt="" /></div>
+          <div class="icon"><img src="icon-upload.svg" alt="" /></div>
+        </div>
+      </div>
+
+      <section class="bg-color-primary context flex">
+        <p class="storage-report">
+          You’ve used <span class="fw-secondary">815 GB</span> of your storage
+        </p>
+        <div class="progress-bar">
+          <div class="progress">
+            <!-- <div class="dot"></div> -->
+          </div>
+        </div>
+        <div class="storage-space flex fw-secondary">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+
+        <div class="storage-alert"> <p class="flex"><span>185</span> GB Left</p></div>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
